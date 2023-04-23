@@ -77,7 +77,7 @@ parser = ArgumentParser()
 parser.add_argument('-a', '--account',type=str,help="The Youtube account you want to login")
 parser.add_argument('-p', '--password',type=str,help="The Youtube account's password")
 parser.add_argument('-l','--listname',default="new_list",type=str,help="The playlist name")
-parser.add_argument('-n','--newlist',default=0,type=int,help="Whether to create a new playlist or not")
+parser.add_argument('-n','--newlist',default=1,type=int,help="Whether to create a new playlist or not")
 parser.add_argument('-f', '--file',type=str,help="Path to the URL file")
 
 if __name__ == '__main__':

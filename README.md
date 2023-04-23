@@ -6,7 +6,14 @@
 ```shell
 pip install -r requirements.txt
 ```
-
+## Execute
+Heres one example of running the code:
 ```shell
-python3 crawl.py -a 'user@gmail.com' -p 'YourPassword' -f 'path/to/pdfFile/containing/YT/links'
+python3 crawl.py -a 'user@gmail.com' -p 'YourPassword' -f 'path/to/pdfFile/containing/YT/links' -n 0
 ```
+## Usage
+- a,account argument is the Youtube account you want to login
+- p,password argument is the password of your YT account
+- f,file argument is the path to the URLs PDF
+- n,newlist is the option that decide whether to create a new playlist or use the existing one. Any number other than 0 will create a new list.
+- l,listname is the name of your playlist.
