@@ -1,4 +1,5 @@
 ## Description
+- This is written using selenium
 - The program creates a Youtube playlist by a list of URL
 - You can modify the get_url() method to fit in your application
 
